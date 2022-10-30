@@ -1,0 +1,58 @@
+.App{
+    display: inline-flex;
+}
+.left-part-container{
+    padding: 0 10px 0 0;
+}
+.right-part-container{
+    width: 700px;
+    height: 600px;
+}
+.stage-container{
+    width: inherit;
+    height: inherit;
+}
+#fileInputGroup{
+    width: 400px;
+    text-align: left;
+    margin-left: 20px;
+}
+.coordinate-container{
+    display: flex;
+    margin-left: 20px;
+}
+
+.coordinate-box{
+    width: 100px;
+    text-align: left;
+    margin-right: 20px;
+}
+.rotate_container{
+    text-align: left;
+    padding: 10px 0 0 10px;
+}
+.movement_container{
+    text-align: left;
+    padding: 10px 0 0 10px;
+}
+.scale-container{
+    text-align: left;
+    padding: 10px 0 0 10px;
+}
+.scale-box{
+    padding: 10px 0 0 20px;
+    display: flex;
+}
+
+.movement_box{
+    padding: 10px 0 0 20px;
+    display: flex;
+}
+.rotate_box{
+    padding: 10px 0 0 20px;
+    display: flex;
+}
+#startRenderButton{
+    width: 60px;
+    height: 70px;
+}
